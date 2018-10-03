@@ -1,0 +1,18 @@
+﻿/* id. picture area */
+#picture {
+	width: fit-content;
+	margin: auto;
+}
+
+	#picture ul {
+		list-style-type: none;
+		-webkit-padding-start: 0;
+		width: fit-content;
+		margin: auto;
+	}
+
+		#picture ul li:first-child {
+			font-weight: bold;
+			text-align: left;
+			padding: 0.3em 0 0.5em 5%;
+		}

@@ -1,0 +1,42 @@
+﻿/* all the page */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans');
+body {
+	font-size: 100%;
+	font-family: "Nanum-Gothic", "Open Sans", sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+header {
+	font-size: 126%;
+	font-weight: 600;
+	padding: 0.5em 0 0.7em 0;
+	background: #ffc107;
+	color: white;
+	border-bottom: 0.2px solid #ddd;
+	box-shadow: 0 0 0.3em #bbb;
+}
+
+section {
+	padding: 2.1em 0 1.2em 0;
+	font-size: 120%;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 1.8em;
+	height: 90%;
+}
+
+section img {
+	width: 90%;
+}
+
+/* ad or introduce block. Footer Box. */
+footer {
+    margin: 1em 0 0 0;
+    padding: 1em 0 1.2em 0;
+    font-weight: bold;
+    background-color: #ffc107;
+    border-top: 0.2px solid #ddd;
+    color: white;
+}

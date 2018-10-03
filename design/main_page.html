@@ -1,55 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>글귀저장소</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, internal-scale=1.0">
+    <link href="base.css" rel="stylesheet" type="text/css" />
+    <link href="pics.css" rel="stylesheet" type="text/css" />
 	<style type="text/css">
-
-		/* all the page */
-		body {
-			font-size: 100%;
-			font-family: sans-serif;
-			text-align: center;
-			margin: 0;
-		}
-		header {
-			font-size: 126%;
-			font-weight: 600;
-			padding: 0.5em 0 0.7em 0;
-			background: #ffc107;
-			color: white;
-			border-bottom: 0.2px solid #ddd;
-			box-shadow: 0 0 0.3em #bbb;
-		}
-		section {
-			padding: 2.1em 0 1.2em 0;
-			font-size: 120%;
-			width: 80%;
-			margin: auto;
-			margin-bottom: 1.8em;
-			height: 90%;
-		}
-
-		/* id. picture area */
-		#picture {
-			width: fit-content;
-			margin: auto;
-		}
-		#picture img {
-			width: 90%;
-		}
-		#picture ul {
-		    list-style-type: none;
-		    -webkit-padding-start: 0;
-		    width: fit-content;
-		    margin: auto;
-		}
-		#picture ul li:first-child {
-			font-weight: bold;
-			text-align: left;
-			padding: 0.3em 0 0.5em 5%;
-		}
 
 		/* like or dislike choice block */
 		/*		#tag_block {
@@ -92,15 +49,6 @@
 			margin-right: 13.1%;
 		}
 
-		/* ad or introduce block. */
-		footer {
-			margin: 1em 0 0 0;
-			padding: 1em 0 1.2em 0;
-			font-weight: bold;
-			background-color: #ffc107;
-			border-top: 0.2px solid #ddd;
-			color: white;
-		}
 	</style>
 </head>
 <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
@@ -144,14 +92,15 @@
 		Also Here is Ad's Block too.
 	</footer>
 	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="secure.js"></script>
 	<script type="text/javascript">
 		onsubmit=function(e) {
-			alert("로그인은 안돼요!!");
+		    alert("로그인은 안돼요!!");
 			return false;
 		}
 
 		window.onload=function() {
-			$("#choice_block").hide();
+		    $("#choice_block").hide();
 		}
 
 		$("#tag_block").hover(
