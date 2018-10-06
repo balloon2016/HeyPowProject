@@ -24,7 +24,7 @@ section {
 	width: 80%;
 	margin: auto;
 	margin-bottom: 1.8em;
-	height: 90%;
+    height: max-content;
 }
 
 section img {
